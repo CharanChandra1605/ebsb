@@ -1,7 +1,7 @@
 "use client"
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import { Noto_Serif } from 'next/font/google'
+import { Merienda } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Head from 'next/head'
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ import AOS from 'aos'
 import "aos/dist/aos.css"
 import React , {useEffect} from 'react'
 
-const inter = Noto_Serif({
+const inter = Merienda({
   weight: '500',
   subsets: ['latin'],
   display: 'swap',
