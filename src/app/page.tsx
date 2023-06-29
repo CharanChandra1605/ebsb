@@ -9,7 +9,7 @@ import { Helmet } from 'react-helmet';
 
 export const Home = () => {
   return (
- 
+  
     <div className='bg-amber-50'>
       
            <div className=' items-center grid grid-cols-1 p-4 text-7xl justify-center font-bold object-center text-center '>  
