@@ -10,7 +10,7 @@ import "aos/dist/aos.css"
 import React , {useEffect} from 'react'
 
 const inter = Merienda({
-  weight: '500',
+  weight: '600',
   subsets: ['latin'],
   display: 'swap',
   
