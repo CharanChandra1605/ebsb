@@ -10,10 +10,10 @@ import d1 from '/public/images/diya.png'
 import r1 from '/public/images/r1.png'
 import l1 from '/public/images/l1jpg.jpg'
 import s1 from '/public/images/s1.jpg'
-import { Helmet } from 'react-helmet'
-import {motion } from 'framer-motion'
+import  Helmet from 'react-helmet'
+import{ motion}  from 'framer-motion'
 
-const variants ={
+const variants = {
   hidden : {opacity:0},
   
   show : {
