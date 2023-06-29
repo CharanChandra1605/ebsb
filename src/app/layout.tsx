@@ -5,6 +5,9 @@ import { Noto_Serif } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Head from 'next/head'
 import { motion } from "framer-motion";
+import AOS from 'aos'
+import "aos/dist/aos.css"
+import React , {useEffect} from 'react'
 
 const inter = Noto_Serif({
   weight: '500',
@@ -21,11 +24,18 @@ export default function RootLayout({
   children: React.ReactNode
 })
  {
+  useEffect(() => {
+    AOS.init( {duration :1500});
+  
+  }, [])
+  
   return (
+
     <html lang="en">
+  
     <title> EBSB</title>
       <body className={inter.className}>
-      
+
         <Navbar  />
         <motion.div initial={{ opacity: 0, y:15 }}
         animate={{ opacity: 10 ,y:0 }}
