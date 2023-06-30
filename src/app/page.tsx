@@ -28,19 +28,19 @@ export const Home = () => {
          animate = "show"
          >  <div  data-aos="fade-up" className=' items-center grid grid-cols-1 p-4 text-7xl justify-center font-bold object-center text-center '>  
   <div  data-aos="fade-up" className='justify-center p-4 m-auto opacity-80'>
-  <Image  data-aos="fade-up" className='transition duration-300 ease-in-out hover:scale-310 items-center object-fill h-screen w-104 rounded-lg justify-center' src={EBSB} alt='team'  ></Image>
-  </div> <span  data-aos="fade-up" className=' p-4 m-auto flex justify-between'> 
+  <Image  data-aos="fade-up" className='transition duration-300 ease-in-out hover:scale-310 items-center object-fill sm:w-48 sm:h-40 md:h-screen md:w-full rounded-lg justify-center' src={EBSB} alt='team'  ></Image>
+  </div> <span  data-aos="fade-up" className=' p-4 m-auto md:flex sm:grid sm:grid-cols-1 justify-between'> 
    <span  data-aos="fade-up" className='p-4 text-yellow-500'>
     EBSB
    </span>
-   <span  data-aos="fade-up" className='text-amber-900 p-4 m-auto text-3xl'>
+   <div  data-aos="fade-up" className='text-amber-900 p-4 m-auto text-3xl'>
     EK Bharat Shrestha Bharat
-   </span>
+   </div>
    </span>
           </div></motion.div>
 
 
- <section  data-aos="fade-up" className='bg-rose-50 p-4 grid grid-cols-3 gap-2 ' >
+ <section  data-aos="fade-up" className='bg-rose-50 p-4 grid sm:grid-cols-1 md:grid-cols-3 gap-2 ' >
             
             <div  data-aos="fade-up" className='p-5 m-auto space-x-5 grid grid-rows-1 justify-center'>
               <Image  data-aos="fade-up" className=' m-auto transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-96 h-88' src={b1} alt='Lohri_celebrations' />
@@ -59,7 +59,7 @@ export const Home = () => {
             </div>
           
             <div data-aos="fade-up" className='p-4 m-auto space-x-5 grid grid-rows-1 justify-center'>
-              <Image  className=' m-auto transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-96 h-88' src={s1} alt='Lohri_celebrations'data-aos="fade-up" />
+              <Image data-aos="fade-up" className=' m-auto transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-96 h-88' src={s1} alt='Lohri_celebrations' />
               <div data-aos="fade-up" className='p-4 m-1 text-center  space-x-4'>
                <div data-aos="fade-up" className='p-1 text-2xl'> SPORTS & LITERATURE </div>
                  <div data-aos="fade-up" className='text-1xl'> Kabaddi, kho kho, poetry, essays, books </div>
