@@ -35,7 +35,7 @@ export const Navbar = () => {
     const path =usePathname();
     return (
 
-    <div className='fixed bg-gradient-to-r from-yellow-100 to-fuchsia-100 rounder-3xl p-4 flex justify-between items-center' style={{
+    <div className='max-w-full fixed bg-gradient-to-r from-yellow-100 to-fuchsia-100 rounder-3xl p-4 flex justify-between items-center' style={{
         position : 'inherit',
     }}>
        <Link href= "/Home"  className={`${"/Home"==path ?  "text-orange-500 text-2xl font-bold": "text-cyan-500 "}`} > 

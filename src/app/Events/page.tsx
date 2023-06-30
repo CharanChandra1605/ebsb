@@ -37,7 +37,7 @@ const images = {
 
 export const Events = () => {
   return (
-    <div className='text-1.5xl'>
+    <div className='text-1.5xl w-full'>
       <Helmet>
         <title>EBSB | Events</title>
       </Helmet>
@@ -47,8 +47,8 @@ export const Events = () => {
       animate ="show"
 
       >
-      <section data-aos="fade-up"  className=' items-center grid grid-cols-3 p-4 text-7xl justify-center font-bold object-center text-center '> 
-  < div data-aos="fade-up" className='justify-center p-4 '>
+      <section data-aos="fade-up"  className=' items-center grid md:grid-cols-3 p-4 text-7xl justify-center font-bold object-center text-center '> 
+  < div data-aos="fade-up" className=' w-full justify-center p-4 '>
     
   <Image  data-aos="fade-up" className=' transition duration-300 ease-in-out hover:scale-110 items-center object-fill h-96 w-96 rounded-2xl justify-center' src={ebsb} alt='team'  ></Image>
   </div>
@@ -67,7 +67,7 @@ export const Events = () => {
       initial ="hidden"
       animate ="show"
 
-      >          <section  data-aos="fade-up" className=' bg-yellow-50 p-4 m-auto grid grid-cols-2 gap-4 justify-center bg-color' >
+      >          <section  data-aos="fade-up" className='sm:grid-cols-1 bg-yellow-50 p-4 m-auto md:grid md:grid-cols-2 gap-4 justify-center bg-color' >
             
            <div className='p-5 m-auto space-x-5  '>
              <Image  data-aos="fade-up" className='transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-96 h-88' src={bath} alt='Lohri_celebrations' />
@@ -88,7 +88,7 @@ export const Events = () => {
       animate ="show"
 
       >   
-          <section  data-aos="fade-up" className=' bg-yellow-50 p-4 m-auto grid grid-cols-2 gap-4 justify-center bg-color' >
+          <section  data-aos="fade-up" className=' bg-yellow-50 p-4 m-auto grid sm:grid-cols-1 md:grid-cols-2 gap-4 justify-center bg-color' >
             
            <div className='p-4 space-x-4'>
               
@@ -108,7 +108,7 @@ export const Events = () => {
       animate ="show"
 
       >   
-          <section  data-aos="fade-up" className='  bg-gradient-to-r from-yellow-100 to-fuchsia-100  p-4 m-auto grid grid-cols-2 gap-4 justify-center bg-color' >
+          <section  data-aos="fade-up" className='  bg-gradient-to-r from-yellow-100 to-fuchsia-100  p-4 m-auto grid  sm:grid-cols-1 md:grid-cols-2 gap-4 justify-center bg-color' >
             
             <div className='p-5 m-auto space-x-5  '>
               <Image  data-aos="fade-up" className=' transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-96 h-88' src={d1} alt='Lohri_celebrations' />
@@ -129,7 +129,7 @@ export const Events = () => {
       animate ="show"
 
       >   
-           <section  data-aos="fade-up" className='  bg-gradient-to-r from-yellow-100 to-fuchsia-100 p-4 m-auto grid grid-cols-2 gap-4 justify-center bg-color' >
+           <section  data-aos="fade-up" className='  bg-gradient-to-r from-yellow-100 to-fuchsia-100 p-4 m-auto grid sm:grid-cols-1 lg:grid-cols-2 gap-4 justify-center bg-color' >
             
             <div  data-aos="fade-up" className='p-4 space-x-4'>
                
@@ -150,14 +150,14 @@ export const Events = () => {
       animate ="show"
 
       >   
-         <section  data-aos="fade-up" className='grid grid-rows-1 gap-4 space-x-4 justify-center p-4 m-auto bg-blue-50 '>
-                         <div  data-aos="fade-up" className='p-4 justify-center flex justify-between  '>
-                             <Image  data-aos="fade-up" className=' m-auto transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-72 h-72' src={l1} alt='l1'></Image>
-                             <Image  data-aos="fade-up" className='m-auto transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-72 h-72 ' src={s1} alt='l1'></Image>
+         <section  data-aos="fade-up" className=' grid lg:grid-rows-1 gap-4 space-x-4 justify-center p-4 m-auto bg-blue-50 '>
+                         <div  data-aos="fade-up" className='p-4 justify-center sm:grid sm:grid-cols-1 md:flex sm:gap-4 justify-between  '>
+                             <Image  data-aos="fade-up" className='md:p-0 lg:m-auto sm:my-10 sm:p-10 transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-72 h-72' src={l1} alt='l1'></Image>
+                             <Image  data-aos="fade-up" className='md:p-0 lg:m-auto sm:mx-32 sm:p-10 transition duration-300 ease-in-out hover:scale-110 rounded-3xl outline-4 shadow-2xl justify-center w-72 h-72 ' src={s1} alt='l1'></Image>
                        </div>      
-                       <div  data-aos="fade-up" className='p-4 space-x-4 grid grid-rows-1 justify-center'>
+                       <div  data-aos="fade-up" className='p-4 space-x-4 r'>
               
-              <p  data-aos="fade-up" className=' text-justify p-4 text-neutral-900  text-justify m-auto indent-8 whitespace-normal flex justify-center items-center '>Lohri is a popular winter Punjabi folk festival celebrated primarily in Northern India. The significance and legends about the Lohri festival are many and these link the festival to the Punjab region. It is believed by many that the festival marks the passing of the winter solstice.
+              <p  data-aos="fade-up" className=' lg:mx-32 text-justify p-4 text-neutral-900  text-justify  indent-8 whitespace-normal flex justify-center items-center '>Lohri is a popular winter Punjabi folk festival celebrated primarily in Northern India. The significance and legends about the Lohri festival are many and these link the festival to the Punjab region. It is believed by many that the festival marks the passing of the winter solstice.
            Under the  Ek Bharat Shreshtha Bharat club of IIT Hyderabad, all the students and faculty witnessed a vibrant Lohri celebration on 13th of January which started with a bonfire. The students along with the Director Prof. B. S. Murthy and Dean Students, Prof. P. Raja Lakshmi burnt the Lohri and celebrated according to the Punjabi traditions and customs.</p>
                 </div>
 

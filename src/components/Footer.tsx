@@ -4,11 +4,11 @@ import {ImFacebook,ImInstagram,ImLinkedin, ImTwitter} from "react-icons/im"
 export const Footer = () => {
   return (
     <footer  className='bg-gray-900 text-white ' >
-      <div className=' p-4 grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 m-auto object-center justify-between flex ' >
+      <div className=' p-4 grid md:grid-cols-3 sm:grid-cols-1  m-auto object-center justify-center flex ' >
         <div className=' p-4'>
-          <div> 
+          <div className='p-4'> 
             <span className='object-left-bottom p-4 text-3xl'>Follow us on</span> </div>
-            <div className=' bottom-0 flex justify-center object-center p-3 m-auto  '>
+            <div className=' flex justify-center object-center p-3 m-auto  '>
                 <div className='flex gap-6'>
                 <a href='https://www.facebook.com/people/Ebsb-club-iith/100070286642769/' className='hover:text-amber-400 transition ease-in-out hover:-translate-y-3 hover:text-2xl duration-300 text-2xl'><ImFacebook> Facebook </ImFacebook> </a>
                 <a href='https://www.instagram.com/ebsb_club_iith/' className='hover:text-amber-300 transition ease-in-out hover:-translate-y-3 hover:text-2xl duration-300 text-2xl'> <ImInstagram > Instagram</ImInstagram></a>

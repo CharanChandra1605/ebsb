@@ -12,6 +12,7 @@ import e2 from '/public/images/event_2jpg.jpg'
 import e3 from '/public/images/event_3.jpg'
 import e4 from '/public/images/event_4.jpg'
 import d1 from '/public/images/digi_1.jpg'
+import charan from '/public/images/charan.jpg'
 import d2 from '/public/images/digi_2.jpg'
 import d3 from '/public/images/digi_3.jpg'
 import d4 from '/public/images/digi_4.jpg'
@@ -38,10 +39,10 @@ export const Team = () => {
   </div>
           </div>
           
-   <section  data-aos="fade-up" className='m-auto p-4 text-center flex object-fill justify-center bg-gradient-to-r from-yellow-100 to-red-100'>
+   <section  data-aos="fade-up" className='m-auto p-4 text-center sm:grid sm:grid-cols-1 md:flex object-fill justify-center bg-gradient-to-r from-yellow-100 to-red-100'>
     <div className='m-9 p-10 content-center justify-center object-fill justify-self-stretch'>
     <ul  data-aos="fade-up" className='justify-between grid-rows-2'>
-      <li   className=' p-1 text-center text-4xl'>Overall Head</li>
+      <li   className=' p-1 text-center text-orange-500  text-4xl'>Overall Head</li>
       <li className='p-1   text-2xl'>Anirudh Raghav</li>
     </ul>
     </div>
@@ -50,20 +51,20 @@ export const Team = () => {
        </Image></div>
 
    </section>
-  <section  data-aos="fade-up" className='m-auto p-4 text-center flex object-fill justify-center bg-gradient-to-r from-yellow-100 to-red-100'>
-  <div  data-aos="fade-up" className='p-4  w-sm'> 
+  <section  data-aos="fade-up" className='m-auto p-4 text-center sm:grid sm:grid-cols-1 md:flex object-fill justify-center bg-gradient-to-r from-yellow-100 to-red-100'>
+  <div  data-aos="fade-up" className='p-4  '> 
       <Image  data-aos="fade-up" className='transition duration-300 ease-in-out hover:scale-110 items-center object-fill h-96 w-96 rounded-lg' src={sreejith}  alt='overal head'>
        </Image></div>
        <div  data-aos="fade-up" className=' m-9 p-10 content-center justify-center object-fill justify-self-stretch'>
     <ul  data-aos="fade-up" className='justify-between grid-rows-2'>
-      <li className=' p-1 text-center text-3xl'>Vice Overall Head</li>
+      <li className=' p-1 text-center text-orange-500  text-3xl'>Vice Overall Head</li>
       <li className='p-1  text-center text-2xl'>Sreejith</li>
     </ul>
     </div>
   </section>
 
 
-    <section  data-aos="fade-up" className='w-full p-4 justify-between p-4 flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
+    <section  data-aos="fade-up" className='w-full p-4 justify-between p-4 sm:grid sm:grid-cols-1 md:flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
     <div data-aos="fade-up" className= 'p-4  '>
       <div  data-aos="fade-up" className=' grid m-auto p-4 space-x-4 '>
         <div  data-aos="fade-up" className='p-2 grid grid-col-2 justify-evenly'>
@@ -72,7 +73,7 @@ export const Team = () => {
         </Image>
         <div  data-aos="fade-up" className='p-2 text-center grid justify-center '>
     <ul  data-aos="fade-up" className='justify-between'>
-      <li className=' p-1 text-center text-3xl'>Events Head</li>
+      <li className=' p-1 text-center text-orange-500  text-3xl'>Events Head</li>
       <li className=' p-1  text-2xl'>Ravinder</li>
     </ul>
     </div>
@@ -133,7 +134,7 @@ export const Team = () => {
       </div> </div>
     </section>
   
-    <section  data-aos="fade-up" className='w-full bottom-4 p-4 justify-between flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
+    <section  data-aos="fade-up" className='w-full bottom-4 p-4 justify-between sm:grid sm:grid-cols-1 md:flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
     <div className= 'p-4  '>
       <div  data-aos="fade-up" className=' grid m-auto p-4 space-x-4 '>
         <div  data-aos="fade-up" className='p-2 grid grid-col-2 justify-evenly'>
@@ -142,7 +143,7 @@ export const Team = () => {
         </Image>
         <div className='p-2 text-center grid justify-center '>
     <ul  data-aos="fade-up" className='justify-between'>
-      <li className=' p-1 text-center text-3xl'>Digital and Social Media Head</li>
+      <li className=' p-1 text-center text-orange-500  text-3xl'>Digital and Social Media Head</li>
       <li className=' p-1  text-2xl'>Akansha</li>
     </ul>
     </div>
@@ -206,7 +207,7 @@ export const Team = () => {
 
   </section>
 
-  <section  data-aos="fade-up" className='w-full bottom-4 p-4 justify-between flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
+  <section  data-aos="fade-up" className='w-full bottom-4 p-4 justify-between sm:grid sm:grid-cols-1 md:flex justify-between items-center bg-gradient-to-r from-yellow-100 to-red-100'>
     <div className= 'p-4 '>
       <div className=' grid m-auto p-4 space-x-4 '>
         <div  data-aos="fade-up" className='p-2 grid grid-col-2 justify-between'>
@@ -215,7 +216,7 @@ export const Team = () => {
         </Image>
         <div className='p-2 text-center grid justify-center '>
     <ul  data-aos="fade-up" className='justify-between'>
-      <li className=' p-1 text-center text-3xl'>Content Head</li>
+      <li className=' p-1 text-center text-orange-500 text-3xl'>Content Head</li>
       <li className=' p-1  text-2xl'>Ruthwika</li>
     </ul>
     </div>
@@ -254,7 +255,7 @@ export const Team = () => {
       <Image  data-aos="fade-down" className='transition duration-300 ease-in-out hover:scale-110 items-center object-fill h-64 w-48 rounded-lg' src={c3} alt='event_coord'></Image>
       <div className='p-2 text-center grid justify-center '>
     <ul  data-aos="fade-down" className='justify-between'>
-      <li className=' text-center text-2xl'>Shubham</li>
+      <li className=' text-center  text-2xl'>Shubham</li>
       <li className='  text-1xl'>Content Coordinator</li>
     </ul>
     </div>
@@ -267,7 +268,18 @@ export const Team = () => {
 
 
   </section>
+  <section  data-aos="fade-up" className='m-auto p-4 text-center sm:grid sm:grid-cols-1 md:flex object-fill justify-center bg-gradient-to-r from-yellow-100 to-red-100'>
+    <div className='m-9 p-10 content-center justify-center object-fill justify-self-stretch'>
+    <ul  data-aos="fade-up" className='justify-between grid-rows-2'>
+      <li   className=' p-1 text-indigo-800 text-center text-4xl'>Web Page Designer</li>
+      <li className='p-2 text-2xl'>Charan Chandra</li>
+    </ul>
+    </div>
+    <div  data-aos="fade-up" className='p-4 justify-center '> 
+      <Image  data-aos="fade-up" className='transition duration-300 ease-in-out hover:scale-110 -z-1 items-center object-fill h-90 w-96 rounded-lg' src={charan}  alt='overal head'>
+       </Image></div>
 
+   </section>
 
     </div>
     
